@@ -3,6 +3,7 @@
 body {
     margin: 0px;
     background-color: #fefcf3;
+    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -89,13 +90,6 @@ footer a {
     font-size: 1.5em;
 }
 
-.card {
-    width: 30%;
-    min-width: 195px;
-    height: 200px;
-    background-color: #dba39a;
-    text-align: center;
-}
 
 .section_cards {
     background-color: #f0dbdb;
@@ -163,8 +157,38 @@ footer a {
 }
 
 .contenedor_formulario {
-    width: 281px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 250px;
 }
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+
+.card_container {
+    background-color: #ede8daad;
+    text-align: center;
+
+}
+
+.contenedor_card_body {
+    height: 182px;
+}
+
+.card_container img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    font-size: 24px;
+    background-color: #1919197a;
+}
+
