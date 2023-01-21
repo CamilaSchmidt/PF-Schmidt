@@ -1,0 +1,170 @@
+/* Estilos generales */
+
+body {
+    margin: 0px;
+    background-color: #fefcf3;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+}
+
+/* menu */
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    font-size: 1.3em;
+}
+
+.menu a {
+color: rgb(100, 100, 100);
+}
+
+.activador_menu {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/*footer*/
+footer {
+    background-color: #dad5d6;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    margin: 0px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: #353535;
+    font-size: 1.2em;
+}
+
+.seccion_principal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.texto_centrado {
+    max-width: 800px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3em;
+}
+
+
+/* index */
+.logo_principal {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fondo_parrafo {
+    background-color: #f5ebe0;
+    padding: 20px;
+}
+
+.fondo_parrafo p {
+    max-width: 900px;
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+.card {
+    width: 30%;
+    min-width: 195px;
+    height: 200px;
+    background-color: #dba39a;
+    text-align: center;
+}
+
+.section_cards {
+    background-color: #f0dbdb;
+}
+
+.contenedor_cards {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px;
+}
+
+/*productos*/
+
+.c3 {
+    transition: 1s;
+}
+
+.c3:hover{
+    transform: scale(1,1.2);
+}
+
+.contenedor_imagenes{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card_imagenes {
+    display: flex;
+    align-items: center;
+    background: #ff840314;
+    /* height: 600px; */
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_imagenes img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.contenedor_tabla {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_tabla h3 {
+    text-align: center;
+}
+
+.contenedor_tabla table {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contenedor_formulario {
+    width: 281px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+}
