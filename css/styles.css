@@ -10,11 +10,11 @@ a {
     text-decoration: none;
 }
 
-img{
+img {
     width: 300px;
 }
 
-/* menu */
+
 .menu {
     list-style: none;
     display: flex;
@@ -24,7 +24,7 @@ img{
 }
 
 .menu a {
-color: rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
 }
 
 .activador_menu {
@@ -32,7 +32,7 @@ color: rgb(100, 100, 100);
     font-weight: bold;
 }
 
-/*footer*/
+
 footer {
     background-color: #dad5d6;
     padding: 30px;
@@ -67,8 +67,6 @@ footer a {
     font-size: 3em;
 }
 
-
-/* index */
 .logo_principal {
     display: block;
     margin-right: auto;
@@ -90,7 +88,6 @@ footer a {
     font-size: 1.5em;
 }
 
-
 .section_cards {
     background-color: #f0dbdb;
 }
@@ -106,30 +103,26 @@ footer a {
     padding: 100px;
 }
 
-/*productos*/
-
 .c3 {
     transition: 1s;
 }
 
-.c3:hover{
-    transform: scale(1,1.2);
+.c3:hover {
+    transform: scale(1, 1.2);
 }
 
-.contenedor_imagenes{
+.contenedor_imagenes {
     max-width: 1100px;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .card_imagenes {
     display: flex;
     align-items: center;
     background: #ff840314;
-    /* height: 600px; */
     height: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -153,7 +146,7 @@ footer a {
 .contenedor_tabla table {
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .contenedor_formulario {
@@ -170,11 +163,15 @@ footer a {
 
 }
 
-
 .card_container {
-    background-color: #ede8daad;
+    background-color: #e4bdbd;
     text-align: center;
+    transition: 0.3s;
+}
 
+.card_container:hover {
+    background-color: #f8efd7ad;
+    border-radius: 10px;
 }
 
 .contenedor_card_body {
@@ -186,9 +183,7 @@ footer a {
     object-fit: cover;
 }
 
-
 .carousel-caption {
     font-size: 24px;
     background-color: #1919197a;
 }
-
