@@ -1,0 +1,58 @@
+.seccion_principal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.texto_centrado {
+    max-wth: 800px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: autoid;
+    font-size: 3em;
+}
+
+.c3 {
+    transition: 1s;
+}
+
+.c3:hover {
+    transform: scale(1, 1.2);
+}
+
+.contenedor_imagenes {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card_imagenes {
+    display: flex;
+    align-items: center;
+    background: #ff840314;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_imagenes img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.contenedor_tabla {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor_tabla h3 {
+    text-align: center;
+}
+
+.contenedor_tabla table {
+    margin-left: auto;
+    margin-right: auto;
+}

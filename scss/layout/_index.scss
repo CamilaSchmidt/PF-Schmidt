@@ -1,0 +1,86 @@
+.contenedor_card_body {
+    height: 182px;
+}
+
+.seccion_banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    h1 {
+        max-width: 800px;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 3em;
+    }
+}
+
+.logo_principal {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+    background-color: #1919197a;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.fondo_parrafo {
+    background-color: #f5ebe0;
+    padding: 20px;
+}
+
+.fondo_parrafo p {
+    max-width: 900px;
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+.section_cards {
+    background-color: #f0dbdb;
+}
+
+.contenedor_cards {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px;
+}
+
+.card_container {
+    background-color: #e4bdbd;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card_container:hover {
+    background-color: #f8efd7ad;
+    border-radius: 10px;
+}
+.card_container img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "name": "preentrega2-schmidt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/styles.scss ./css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilaSchmidt/PreEntrega2-Schmidt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamilaSchmidt/PreEntrega2-Schmidt/issues"
+  },
+  "homepage": "https://github.com/CamilaSchmidt/PreEntrega2-Schmidt#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
