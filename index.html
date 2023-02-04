@@ -5,14 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--breve descripcion de la pagina-->
+    <meta name="description"
+        content="Camila Schmidt Estudio de Diseño, un espacio donde tus ideas las hacemos realidad.">
+    <!--palabras clave del contenido de la pagina-->
+    <meta name="keywords"
+        content="catalogo, productos, diseños, vinilos, decorativos, remeras, estampas, estampados, sublimados, decoracion, homedeco, fotografia, foto, tarjetas parsonales, tarjeteria, stickers, pegatinas">
+
+    <!-- Primary Meta Tags -->
+    <title>Camila Schmidt Estudio de Diseño</title>
+    <meta name="title" content="Camila Schmidt Estudio de Diseño">
+    <meta name="description"
+        content="Camila Schmidt Estudio de Diseño, un espacio donde tus ideas las hacemos realidad.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Camila Schmidt Estudio de Diseño">
+    <meta property="og:description"
+        content="Camila Schmidt Estudio de Diseño, un espacio donde tus ideas las hacemos realidad.">
+    <meta property="og:image"
+        content="./assets/logo_final1_CS.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Camila Schmidt Estudio de Diseño">
+    <meta property="twitter:description"
+        content="Camila Schmidt Estudio de Diseño, un espacio donde tus ideas las hacemos realidad.">
+    <meta property="twitter:image"
+        content="./assets/logo_final1_CS.png">
+
+
     <!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--link css-->
     <link rel="stylesheet" href="./css/styles.css">
-
-
-    <title>CS Estudio de Diseño</title>
 
 </head>
 
@@ -21,7 +50,10 @@
     <header>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg shadow">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">CS Estudio de Diseño</a>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/logo_final1_CS.png" alt="Logo" width="30" height="30"
+                        class="d-inline-block align-text-top">
+                    Estudio de Diseño</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -29,7 +61,7 @@
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+                        <a class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</a>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -55,7 +87,7 @@
     <!--COONTENIDO PRINCIPAL-->
 
     <section class="seccion_banner">
-        <img class="logo_principal" src="./assets/logo final1 CS.png" alt="logoCS">
+        <img class="logo_principal" src="./assets/logo_final1_CS.png" alt="logoCS">
         <h1>Hola, mi nombre es Camila y te invito a que conozcas mis diseños!</h1>
     </section>
 
@@ -63,43 +95,39 @@
     <section>
         <div id="carousel" class="carousel slide">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://images.unsplash.com/photo-1589384267710-7a170981ca78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                        class="d-block w-100" alt="...">
+                        class="d-block w-100" alt="imagenCarousel1">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Personaliza tus objetos favoritos</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.unsplash.com/photo-1622595659454-2de32ab192fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                        class="d-block w-100" alt="...">
+                        class="d-block w-100" alt="imagenCarousel2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Imprime tus mejores momentos</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.unsplash.com/photo-1503340588524-222d094c7066?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-                        class="d-block w-100" alt="...">
+                        class="d-block w-100" alt="imagenCarousel3">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Remeras con la estampa que más te guste</h5>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -109,15 +137,14 @@
 
 
     <section class="fondo_parrafo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum molestias itaque labore quibusdam ipsa.
-            Reiciendis numquam sed sapiente dolorum recusandae? In delectus vel, eveniet dolorem ea voluptates tempore
-            deleniti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum molestias itaque labore quibusdam
-            ipsa.
-            Reiciendis numquam sed sapiente dolorum recusandae? In delectus vel, eveniet dolorem ea voluptates tempore
-            deleniti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab earum molestias itaque labore quibusdam
-            ipsa.
-            Reiciendis numquam sed sapiente dolorum recusandae? In delectus vel, eveniet dolorem ea voluptates tempore
-            deleniti.</p>
+        <p>Desde nuestros productos simples buscamos transmitir ese poquito de felicidad que muestran nuestros clientes cuando ven plasmada
+            una idea en un objeto de diseño. Nuestro objetivo es hacerte llegar un producto que marque un antes y un despues en tu vida. Que te genere alegría y satisfacer
+            esa necesidad de apreciar cada objeto que te rodea. No solo creamos diseños para desarrollar todas nuestras capacidades y pasiones sino para dejar una huella
+            en cada persona que nos elije. Ya sea el estampado de una remera que vas a regalar a alguien especial, un souvenir para el cumpleaños de tu hijo, tus tarjetas
+            personales, el vinilo para una pared de tu casa o la vidriera de tu local. Sea cual sea tu necesidad, cada pedido es más que la resolución de algo práctico.
+            En este sitio vas a descubrir la versatilidad del diseño y a los diversos lugares donde se puede aplicar.
+        </p>
+
     </section>
 
     <section class="section_cards">
@@ -125,17 +152,16 @@
         <div class="contenedor_cards row row-cols-1 row-cols-md-3 g-4 p-3 pb-5">
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1496493820873-82288ac48a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardVinilos">
 
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Vinilos</h5>
                         </a>
-                        <p class="card-text"> Los vinilos se utilizan para decorar o promocionar tu marca y se
-                            pueden aplicar sobre diversas superficies en interior o exterior.</p>
+                        <p class="card-text"> Los vinilos se utilizan para decorar o promocionar tu marca.</p>
 
                     </div>
 
@@ -143,10 +169,10 @@
             </div>
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardRemeras">
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Remeras</h5>
@@ -158,10 +184,10 @@
             </div>
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1452457436726-a8e6ea2adf29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardDecoracion">
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Decoracion</h5>
@@ -174,10 +200,10 @@
             </div>
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1540651810471-5699df74834f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardStickers">
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Stickers</h5>
@@ -189,10 +215,10 @@
             </div>
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1598623549917-a38dc6cd19b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardFotografias">
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Fotografia</h5>
@@ -207,10 +233,10 @@
             </div>
 
             <div class="col">
-                <div class="card card_container">
+                <div class="card contenedor_card">
 
                     <img src="https://images.unsplash.com/photo-1495846414472-6696652d955f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                        class="card-img-top" alt="...">
+                        class="card-img-top" alt="cardTarjeteria">
                     <div class="card-body contenedor_card_body">
                         <a href="./pages/productos.html">
                             <h5 class="card-title text-black fw-bold">Tarjeteria</h5>

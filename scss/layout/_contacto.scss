@@ -1,7 +1,19 @@
+.texto_centrado {
+    text-align: center;
+    @include contenedores_textos;
+
+    h1 {
+        font-size: 4em;
+        color: $color-texto;
+    }
+}
 
 .contenedor_formulario {
-    max-width: 600px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 250px;
+
+    padding-left: 15px;
+    padding-right: 15px;
 }

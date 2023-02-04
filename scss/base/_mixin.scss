@@ -1,0 +1,9 @@
+@mixin contenedores_textos {
+    max-width: 800px;
+    @extend .centrar_contenedores;
+}
+
+@mixin contenedores_principales {
+    max-width: 1100px;
+    @extend .centrar_contenedores;
+}

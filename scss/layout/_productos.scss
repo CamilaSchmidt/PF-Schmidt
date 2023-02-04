@@ -1,15 +1,25 @@
 .seccion_principal {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    @extend .espacio_vertical;
+    
+    @include contenedores_principales;
 }
 
-.texto_centrado {
-    max-wth: 800px;
+.seccion_titulo {
+    display: block;
+    margin-top: 50px;
+    @include contenedores_textos;
+
+    h1 {
+        text-align: center;
+        font-size: 4em;
+        color: $color-texto;
+    }
+}
+
+.productos_subtitulos {
     text-align: center;
     display: block;
-    margin-right: auto;
-    margin-left: autoid;
-    font-size: 3em;
+    @include contenedores_textos;
 }
 
 .c3 {
@@ -21,11 +31,9 @@
 }
 
 .contenedor_imagenes {
-    max-width: 1100px;
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    @include contenedores_principales;
 }
 
 .card_imagenes {
@@ -35,17 +43,15 @@
     height: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
 
-.card_imagenes img {
-    width: 100%;
-    max-height: 300px;
+    img {
+        width: 100%;
+        max-height: 300px;
+    }
 }
 
 .contenedor_tabla {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    @include contenedores_textos;
 }
 
 .contenedor_tabla h3 {

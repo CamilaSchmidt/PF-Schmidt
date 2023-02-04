@@ -3,16 +3,14 @@
 }
 
 .seccion_banner {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    @extend .espacio_vertical;
+
+    @include contenedores_textos;
 
     h1 {
-        max-width: 800px;
         text-align: center;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
         font-size: 3em;
+        color: $color-texto;
     }
 }
 
@@ -20,7 +18,9 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 300px;
+    max-width: 500px;
+    width: 80%;
+
 }
 
 .carousel-caption {
@@ -37,50 +37,48 @@
 }
 
 .fondo_parrafo {
-    background-color: #f5ebe0;
+    background-color: $color-principal;
     padding: 20px;
-}
 
-.fondo_parrafo p {
-    max-width: 900px;
-    display: block;
+    @include contenedores_textos;
     margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 50px;
-    font-size: 1.5em;
+
+    p {
+        font-size: 1.3em;
+        line-height: normal;
+        text-align: justify;
+    }
 }
 
 .section_cards {
     background-color: #f0dbdb;
+
+    .contenedor_cards {
+        max-width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 100px;
+    }
+
+    .contenedor_card {
+        background-color: #e4bdbd;
+        text-align: center;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: $color-principal;
+            border-radius: 10px;
+        }
+
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+
 }
-
-.contenedor_cards {
-    max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 100px;
-}
-
-.card_container {
-    background-color: #e4bdbd;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.card_container:hover {
-    background-color: #f8efd7ad;
-    border-radius: 10px;
-}
-.card_container img {
-    height: 200px;
-    object-fit: cover;
-}
-
-
-
-

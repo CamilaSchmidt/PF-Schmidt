@@ -1,19 +1,22 @@
 footer {
-    background-color: #dad5d6;
+    background-color: $color-footer;
     padding: 30px;
     display: flex;
     justify-content: space-between;
-}
 
-footer h3 {
-    margin: 0px;
-}
 
-footer ul {
-    list-style: none;
-}
 
-footer a {
-    color: #353535;
-    font-size: 1em;
+    h3 {
+        margin: 0px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        color: #353535;
+        font-size: 1em;
+    }
+
 }

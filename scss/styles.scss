@@ -1,8 +1,14 @@
-/* Estilos generales */
-@import './base/_reset.scss';
+// import de base
+@import './base/vars';
+@import './base/reset';
+@import './base/mixin';
+@import './base/extend';
+
+
+//import de components
 @import './components/footer';
 
-/* Estilos layouts */
+// import de layout
 @import './layout/index';
 @import './layout/productos';
 @import './layout/contacto';
