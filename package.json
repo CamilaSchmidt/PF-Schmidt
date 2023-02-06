@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/CamilaSchmidt/PreEntrega2-Schmidt/issues"
   },
-  "homepage": "https://github.com/CamilaSchmidt/PreEntrega2-Schmidt#readme",
+  "homepage": "https://pre-entrega3-schmidt.vercel.app/",
   "devDependencies": {
     "node-sass": "^8.0.0"
   }
