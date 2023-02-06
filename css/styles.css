@@ -28,6 +28,10 @@ footer {
     color: #353535;
     font-size: 1em; }
 
+.navbar img {
+  width: 30px;
+  height: 30px; }
+
 .contenedor_card_body {
   height: 182px; }
 
@@ -106,9 +110,8 @@ footer {
 
 .c3 {
   transition: 1s; }
-
-.c3:hover {
-  transform: scale(1, 1.2); }
+  .c3:hover {
+    transform: scale(1, 1.2); }
 
 .contenedor_imagenes {
   display: flex;
@@ -128,13 +131,17 @@ footer {
 
 .contenedor_tabla {
   max-width: 800px; }
+  .contenedor_tabla h3 {
+    text-align: center; }
+  .contenedor_tabla table {
+    margin-left: auto;
+    margin-right: auto; }
 
-.contenedor_tabla h3 {
-  text-align: center; }
-
-.contenedor_tabla table {
-  margin-left: auto;
-  margin-right: auto; }
+.contenedor_texto {
+  padding-left: 20px;
+  padding-right: 20px; }
+  .contenedor_texto p {
+    font-size: 1.2em; }
 
 .texto_centrado {
   text-align: center;

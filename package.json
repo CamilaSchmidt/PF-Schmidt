@@ -1,7 +1,7 @@
 {
   "name": "preentrega2-schmidt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Camila Schmidt Estudio de Diseño, un espacio donde tus ideas las hacemos realidad.",
   "main": "index.js",
   "scripts": {
     "build-sass": "node-sass --include-path scss ./scss/styles.scss ./css/styles.css -w"

@@ -24,11 +24,13 @@
 
 .c3 {
     transition: 1s;
+    
+    &:hover {
+        transform: scale(1, 1.2);
+    }
+
 }
 
-.c3:hover {
-    transform: scale(1, 1.2);
-}
 
 .contenedor_imagenes {
     display: flex;
@@ -52,13 +54,23 @@
 
 .contenedor_tabla {
     @include contenedores_textos;
+    
+    h3 {
+        text-align: center;
+    }
+    
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.contenedor_tabla h3 {
-    text-align: center;
-}
 
-.contenedor_tabla table {
-    margin-left: auto;
-    margin-right: auto;
+.contenedor_texto {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    p {
+        font-size: 1.2em;
+    }
 }
