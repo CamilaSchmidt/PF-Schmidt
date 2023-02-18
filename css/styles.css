@@ -102,6 +102,12 @@ footer {
     text-align: center;
     font-size: 4em;
     color: #626262; }
+    @media (max-width: 600px) {
+      .seccion_titulo h1 {
+        font-size: 3em; } }
+    @media (max-width: 400px) {
+      .seccion_titulo h1 {
+        font-size: 2em; } }
 
 .productos_subtitulos {
   text-align: center;
@@ -144,11 +150,17 @@ footer {
     font-size: 1.2em; }
 
 .texto_centrado {
-  text-align: center;
   max-width: 800px; }
   .texto_centrado h1 {
+    text-align: center;
     font-size: 4em;
     color: #626262; }
+    @media (max-width: 600px) {
+      .texto_centrado h1 {
+        font-size: 3em; } }
+    @media (max-width: 400px) {
+      .texto_centrado h1 {
+        font-size: 2em; } }
 
 .contenedor_formulario {
   max-width: 500px;

@@ -10,9 +10,7 @@
     @include contenedores_textos;
 
     h1 {
-        text-align: center;
-        font-size: 4em;
-        color: $color-texto;
+        @include titulo_principal;
     }
 }
 
